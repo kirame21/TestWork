@@ -52,7 +52,7 @@ public class AutoTest {
 
         //navigate to mail and open received email
         driver.navigate().to("https://www.mailinator.com/v3/index.jsp?zone=public&query=" + new_email.substring(0, 14) + "#/#inboxpane");
-        driver.findElement(AutoTestLocators.fldemailRegistration).click();
+        driver.findElement(AutoTestLocators.fldЕmailRegistration).click();
 
         //can't find link to pkw, open new tab - navigate to site, closed the old one
         jse.executeScript("window.open()");
